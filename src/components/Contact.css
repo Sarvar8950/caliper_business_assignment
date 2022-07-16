@@ -1,0 +1,69 @@
+.contacts{
+    position: relative;
+    width: 100%;
+}
+.contact{
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    background: rgba(220, 220, 220, 0.218);
+}
+.contact .left{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.contact .form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact .form input, textarea{
+    padding: 6px 12px;
+    border: 1px solid #000;
+    outline: none;
+    margin: 15px 0;
+    resize: none;
+    background: transparent;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+}
+button{
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact .right{
+    width: 50%;
+    position: relative;
+}
+.contact img{
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+
+@media (max-width:900px) {
+    .contact{
+        width: 100%;
+    }
+}
+@media (max-width:650px) {
+    .contact .left{
+        width: 100%;
+    }
+    .contact .right{
+        display: none;
+    }
+}

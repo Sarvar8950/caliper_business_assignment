@@ -1,0 +1,40 @@
+.costs{
+    position: relative;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.cost{
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 18px;
+}
+.cost .image img{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    object-fit: cover;
+}
+.cost .div{
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+.cost .div h2{
+    margin: 15px 0;
+}
+li{
+    list-style: inside;
+}
+
+@media (max-width:700px) {
+    .cost{
+        width: 100%;
+        padding: 20px;
+    }
+    .cost .div{
+        width: 100%;
+    }
+}

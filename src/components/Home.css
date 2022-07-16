@@ -1,0 +1,90 @@
+.homepage{
+    position: relative;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 30px;
+}
+.homepage .body{
+    width: 80%;
+    position: relative;
+    margin: 20px auto;
+}
+.homepage .body .section1{
+    position: relative;
+    width: 100%;
+}
+.homepage .body .section1 img{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.homepage .body .texts .part{
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+.homepage .body .texts .part2:hover{
+    box-shadow: 3px 3px 14px rgba(196, 196, 196, 0.873);
+    cursor: default;
+}
+.homepage .body .texts .part2{
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+.homepage .body .texts .part2 h2{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.homepage .body .texts .part2 img{
+    width: 400px;
+    height: auto;
+}
+.homepage .body .texts .part2 .details{
+    padding: 20px;
+}
+
+@media (max-width:1200px) {
+    .homepage .body .texts .part{
+        position: relative;
+        width: 100%;
+        margin: 50px auto;
+        padding: 10px;
+    }
+}
+@media (max-width:900px) {
+    .homepage .body{
+        width: 100%;
+        position: relative;
+        margin: 20px auto;
+    }
+}
+@media (max-width:750px) {
+    .homepage .body .texts .part2 img{
+        width: 300px;
+        margin-right: 15px;
+    }
+}
+@media (max-width:650px) {
+    h1{
+        font-size: 26px;
+    }
+    .homepage .body .texts .part2{
+        position: relative;
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .homepage .body .texts .part2 img{
+        width: 90%;
+        margin-right: 15px;
+        margin: auto;
+    }
+}

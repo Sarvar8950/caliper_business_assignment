@@ -1,0 +1,44 @@
+.hydrophonic{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+.hydrophonic .hydro{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.hydrophonic .hydro .image{
+    position: relative;
+    width: 100%;
+}
+.hydrophonic .hydro .image img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.hydrotext {
+    width: 70%;
+    position: relative;
+    margin: 40px auto;
+}
+.hydrotext .div{
+    margin: 50px 0;
+}
+.hydrotext .div h2{
+    margin: 10px 0;
+}
+ul, ol{
+    margin-left: 40px;
+}
+
+@media (max-width:700px) {
+    .hydrophonic .hydro{
+        width: 100%;
+        padding: 20px;
+    }
+    .hydrotext {
+        width: 100%;
+    }
+}

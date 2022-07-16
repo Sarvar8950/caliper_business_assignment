@@ -1,0 +1,59 @@
+.service{
+    position: relative;
+    width: 100%;
+}
+.services{
+    position: relative;
+    width: 70%;
+    margin: 50px auto;
+}
+.services .div{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0;
+}
+.services .div:hover{
+    box-shadow: 2px 2px 14px rgba(189, 189, 189, 0.84);
+    cursor: default;
+}
+.services .div img{
+    position: relative;
+    width: 500px;
+}
+.services .div p{
+    position: relative;
+    padding: 20px;
+    font-size: 50px;
+}
+@media (max-width:1050px) {
+    .services{
+        position: relative;
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media (max-width:780px) {
+    .services .div img{
+        position: relative;
+        width: 300px;
+    }
+    .services .div p{
+        position: relative;
+        padding: 20px;
+        font-size: 30px;
+    }
+}
+@media (max-width:550px) {
+    .services .div img{
+        position: relative;
+        width: 50%;
+    }
+    .services .div p{
+        position: relative;
+        padding: 20px;
+        font-size: 20px;
+    }
+}
